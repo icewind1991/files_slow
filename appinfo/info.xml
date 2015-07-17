@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<info>
+	<id>files_slow</id>
+	<name>Storage slowdown</name>
+	<description>Slow down storage backends for performance debugging</description>
+	<licence>AGPL</licence>
+	<author>Robin Appelman</author>
+	<requiremin>8.1</requiremin>
+	<standalone/>
+</info>
