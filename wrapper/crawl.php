@@ -248,14 +248,6 @@ class Crawl extends Wrapper {
 	/**
 	 * {@inheritdoc}
 	 */
-	public function getLocalFolder($path) {
-		$this->delay();
-		return $this->storage->getLocalFolder($path);
-	}
-
-	/**
-	 * {@inheritdoc}
-	 */
 	public function hasUpdated($path, $time) {
 		$this->delay();
 		return $this->storage->hasUpdated($path, $time);
