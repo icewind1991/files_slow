@@ -257,7 +257,6 @@ class Crawl extends Wrapper {
 	 * @return \OC\Files\Cache\Storage
 	 */
 	public function getStorageCache() {
-		$this->delay();
 		return $this->storage->getStorageCache();
 	}
 
